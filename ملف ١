@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Travel Project</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Discover the World</h2>
+    <p>This is a simple travel landing page project.</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This project is a practice to learn HTML, CSS, and JavaScript basics.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Send us an email at: travel@example.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
